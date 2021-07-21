@@ -1,0 +1,9 @@
+<?php
+$connection= mysqli_connect('localhost','root','');
+$db=mysqli_select_db($connection,'bank');
+if(!$connection)
+{
+    echo "Connection error";
+}
+
+?>
